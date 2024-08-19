@@ -37,8 +37,8 @@ import MemberList from './MemberList.vue';
 import MemberModal from './MemberModal.vue';
 
 const members = ref([
-  { id: 1, name: 'Alice', email: 'alice@example.com' },
-  { id: 2, name: 'Bob', email: 'bob@example.com' },
+  { id: 1, name: 'Aichettou Gay', email: 'aichettou@example.com' },
+  { id: 2, name: 'Ag Mohamed', email: 'ag@example.com' },
 ]);
 
 const showAddMemberForm = ref(false);

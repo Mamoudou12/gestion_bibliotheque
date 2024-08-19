@@ -1,6 +1,5 @@
 <template>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg" style="background-color: #2c3e50;">
+  <nav class="navbar navbar-expand-lg" style="background-color: #2c3e50;">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold text-uppercase" href="#" style="color: #f1c40f;">Bibliothèque</a>
         <button
@@ -44,7 +43,7 @@
         </div>
       </div>
     </nav>
-  </div>
+
 </template>
 
 <script setup>

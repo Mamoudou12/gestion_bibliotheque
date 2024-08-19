@@ -36,11 +36,11 @@
 import { ref } from 'vue';
 import AddBookForm from './AddBook.vue';
 import BookList from './BookList.vue';
-import BookModal from './BookModal.vue';
+import BookModal from './BookModal.vue'
 
 const books = ref([
   { id: 1, title: '1984', author: 'George Orwell', genre: 'Dystopian' },
-  { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee', genre: 'Fiction' },
+  { id: 2, title: 'Hatomic Habits', author: 'Harper Lee', genre: 'Fiction' },
 ]);
 
 const showAddBookForm = ref(false);
