@@ -1,29 +1,80 @@
-# gestion_bibliotheque
+# Gestion Bibliotheque
 
-This template should help get you started developing with Vue 3 in Vite.
+Le projet Gestion de Bibliothèque est une application web pour gérer des livres, des membres, et des prêts sans besoin de backend. Elle permet d'ajouter, modifier, supprimer et consulter des livres, membres, et prêts, avec une interface simple et fluide.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Prérequis
 
-## Customize configuration
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Node.js](https://nodejs.org/) (version 14 ou supérieure)
+- [Vue CLI](https://cli.vuejs.org/) ou [Vite](https://vitejs.dev/)
 
-## Project Setup
 
-```sh
+# prise en main du projet
+
+````bash
+https://github.com/Mamoudou12/gestion_bibliotheque.githttps://github.com/Mamoudou12/gestion_bibliotheque.
+git
+````
+
+````bash
+cd gestion_bibliotheque
+````
+
+# Installer les dépendances du projet :
+
+
+````bash
 npm install
-```
+````
 
-### Compile and Hot-Reload for Development
+````bash
+npm install bootstrap
+````
 
-```sh
-npm run dev
-```
+````bash
+npm install vue-router
+````
 
-### Compile and Minify for Production
+## Fonctionnalités
 
-```sh
-npm run build
-```
+### Livres
+
+- **Ajouter un nouveau livre :** Permet d'ajouter un livre à la collection.
+- **Lister tous les livres :** Affiche tous les livres dans un tableau.
+- **Voir les détails d'un livre :** Permet de voir les détails d'un livre spécifique.
+- **Mettre à jour les informations d'un livre :** Permet de modifier les détails d'un livre existant.
+- **Supprimer un livre :** Permet de supprimer un livre de la collection.
+
+### Membres
+
+- **Ajouter un nouveau membre :** Permet d'ajouter un membre à la liste.
+- **Lister tous les membres :** Affiche tous les membres dans un tableau.
+- **Voir les détails d'un membre :** Permet de voir les détails d'un membre spécifique.
+- **Mettre à jour les informations d'un membre :** Permet de modifier les informations d'un membre existant.
+- **Supprimer un membre :** Permet de supprimer un membre de la liste.
+
+### Prêts
+
+- **Enregistrer un nouveau prêt :** Permet d'enregistrer un nouveau prêt de livre.
+- **Lister tous les prêts :** Affiche tous les prêts dans un tableau.
+- **Voir les détails d'un prêt :** Permet de voir les détails d'un prêt spécifique.
+- **Mettre à jour les informations d'un prêt :** Permet de modifier les informations d'un prêt existant.
+- **Supprimer un prêt :** Permet de supprimer un prêt de la liste.
+
+
+
+3. **Lancer l'application :**
+
+    ```bash
+    npm run dev
+    ```
+
+    # Auteurs
+    Mamoudou Adama Ba & Aichetou Taher Sy [Lien de profil de Mamoudou Adama Ba ](https://github.com/Mamoudou12),  [Lien de profil de Aichetou Taher Sy ](https://github.com/shyshasy)
+
+    
+
+
+
