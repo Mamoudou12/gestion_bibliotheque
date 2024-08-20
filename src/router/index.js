@@ -1,17 +1,28 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import AboutView from '../views/AboutView.vue';
+import BooksManager from '@/components/Books/BooksManager.vue';
+import MembersPage from '@/components/Members/MembersPage.vue';
+import LoanManager from '@/components/Loans/LoanManager.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    redirect: '/books',
   },
   {
-    path: '/about',
-    name: 'about',
-    component: AboutView
+    path: '/books',
+    name: 'books',
+    component: BooksManager
+  },
+  {
+    path: '/members',
+    name: 'members',
+    component: MembersPage  // Remplacez par le composant correspondant
+  },
+  {
+    path: '/loans',
+    name: 'loans',
+    component: LoanManager  // Remplacez par le composant correspondant
   }
 ];
 
