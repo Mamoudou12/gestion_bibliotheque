@@ -72,9 +72,9 @@ npm install vue-router
     ```
 
     # Auteurs
-    Mamoudou Adama Ba & Aichetou Taher Sy [Lien de profil de Mamoudou Adama Ba ](https://github.com/Mamoudou12),  [Lien de profil de Aichetou Taher Sy ](https://github.com/shyshasy)
 
-    
+    [Mamoudou Adama Ba ](https://github.com/Mamoudou12)
 
+     [Aichetou Taher Sy ](https://github.com/shyshasy)
 
 
