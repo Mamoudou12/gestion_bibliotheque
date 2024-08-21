@@ -17,12 +17,12 @@ const routes = [
   {
     path: '/members',
     name: 'members',
-    component: MembersPage  // Remplacez par le composant correspondant
+    component: MembersPage  
   },
   {
     path: '/loans',
     name: 'loans',
-    component: LoanManager  // Remplacez par le composant correspondant
+    component: LoanManager  
   }
 ];
 
